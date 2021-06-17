@@ -1,0 +1,135 @@
+body {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	overflow-x: hidden;
+	background-image: url(../img/adventure-time_2275_1920x1080.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+
+#chatbot-interface {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1vh;
+}
+
+#bot-face {
+	flex-direction: row;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#robot-img {
+	height: 50vh;
+}
+
+#chat-container {
+	margin-top: 2vh;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+}
+
+#chat-form {
+	display: flex;
+}
+
+#chat-input {
+	width: 40vw;
+	font-size: 1.5em;
+	border-radius: 2rem;
+	margin-right: 2rem;
+	padding-left: 2rem;
+}
+
+
+#btn-chat-send {
+	width: 10vw;
+	font-size: 1.5em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	border-radius: 2rem;
+}
+
+#chatbox-container {
+	margin-top: 2vh;
+	display: flex;
+	justify-content: center;
+}
+
+#chatbox {
+	width: 50vw;
+	height: 25rem;
+	/* max-height: 30vh; */
+	padding: 2rem;
+	border: 1px solid gray;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	font-size: 1.2em;
+	overflow: hidden;
+	overflow-y: scroll;
+	background-color: whitesmoke;
+}
+
+.chat-item {
+	color: black;
+}
+
+.chat-item-user {
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 1rem;
+
+}
+
+.chat-item-bot {
+	font-family: "Roboto Mono", monospace;
+	text-align: right;
+	font-style: italic;
+	color: grey;
+}
+
+ul{
+	list-style: none;
+}
+
+.done{
+	color: blue;
+}
+
+.nuts{
+	color: brown;
+}
+
+.no {
+	color: red;
+}
+
+.stop{
+	color: red;
+}
+
+.fruit{
+	color: green;
+}
+
+.cheese{
+	color: #d6d31a;
+}
+
+.toast{
+	color: orange;
+}
